@@ -130,11 +130,4 @@ namespace TicketManagementSystem
             File.WriteAllText(Path.Combine(Path.GetTempPath(), $"ticket_{ticket.Id}.json"), ticketJson);
         }
     }
-
-    public enum Priority
-    {
-        High,
-        Medium,
-        Low
-    }
 }
