@@ -1,0 +1,23 @@
+This is a list of things I wanted to do if I had more time:
+
+Refactoring:
+- Move all validation logic to a separate class.
+
+Testing:
+Add tests for these scenarios:
+    
+    - Low priority, created date more than an hour ago and, has no flag, priority should be moved to medium
+
+    - Medium priority, created date more than an hour ago and, has no flag, priority should be moved to High and an email sent
+    
+    - Low priority, created date less than an hour ago, but contains a flag, should raise priority to Medium
+    
+    - validation empty strings, and nulls should throw exceptions
+    
+    - check for hitting emails when ticket moves to High priority
+    
+    - check non paying customers don't have accountManager, and vice versa
+    
+    - Test AssignTicket by creaing a ticket, then changing the assignedUser. Updated ticket should have the new account manager
+    
+    - Different price scenarios

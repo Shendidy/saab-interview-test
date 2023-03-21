@@ -58,25 +58,5 @@ namespace TicketManagementSystem.UnitTests
       _ticketRepository.Received(1).CreateTicket(Arg.Any<Ticket>());
       _emailService.Received(0).SendEmailToAdministrator(Arg.Any<string>(), Arg.Any<string>());
     }
-
-    /*TODO
-    *Add tests for:
-    *
-    *- Low priority, created date more than an hour ago and,
-    *has no flag, priority should be moved to medium
-    *
-    *- Low priority, created date less than an hour ago,
-    *but contains a flag
-    *
-    *- validation empty strings, and nulls
-    *
-    *- check for hitting emails when ticket moves to High priority
-    *
-    *- check non paying customers don't have accountManager, and vice versa
-    *
-    *- Test AssignTicket by created a ticket, then changing the assignedUser
-    *
-    *- Different price scenarios
-    */
   }
 }

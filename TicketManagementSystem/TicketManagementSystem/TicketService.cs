@@ -37,8 +37,6 @@ namespace TicketManagementSystem
 
     public int CreateTicket(string t, Priority p, string assignedTo, string desc, DateTime d, bool isPayingCustomer)
     {
-      // TODO
-      // Move validations to a separate class
       if (String.IsNullOrWhiteSpace(t) || String.IsNullOrWhiteSpace(desc))
       {
         throw new InvalidTicketException("Title or description were null");
