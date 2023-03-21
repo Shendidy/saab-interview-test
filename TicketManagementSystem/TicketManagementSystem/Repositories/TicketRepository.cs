@@ -1,9 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
+using TicketManagementSystem.Models;
+
 namespace TicketManagementSystem
 {
-    public static class TicketRepository
+  public static class TicketRepository
     {
         private static readonly List<Ticket> Tickets = new List<Ticket>();
 

@@ -6,4 +6,11 @@
     Medium,
     Low
   }
+
+  public enum TicketTitleFlags
+  {
+    Crash,
+    Important,
+    Failure
+  }
 }
