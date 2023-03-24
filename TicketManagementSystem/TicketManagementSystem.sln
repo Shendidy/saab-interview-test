@@ -13,7 +13,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailService.Test", "Email\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TicketManagement", "TicketManagement", "{8E0751FF-EF2A-4B88-B62B-127405AAD4B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagementSystem.UnitTests", "TicketManagementSystem.UnitTests\TicketManagementSystem.UnitTests.csproj", "{C5A8AFEA-5A3F-471B-8ABD-06445BD57179}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketManagementSystem.UnitTests", "TicketManagementSystem.UnitTests\TicketManagementSystem.UnitTests.csproj", "{C5A8AFEA-5A3F-471B-8ABD-06445BD57179}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46F9C731-1C73-45EB-9A86-011F58B424C8}"
+	ProjectSection(SolutionItems) = preProject
+		..\TODO.txt = ..\TODO.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
